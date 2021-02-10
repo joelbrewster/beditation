@@ -116,8 +116,17 @@ body {
     width: 100%;
     height: 100%;
     cursor: initial;
-    backdrop-filter: blur(3px);
-    transition: all 0.5s linear;
+    backdrop-filter: blur(1px);
+    transition: all 0.25s linear;
+    opacity: 0;
+    click-events: none;
+    z-index: -1;
+}
+
+.buttons.active {
+    opacity: 1;
+    click-events: initial;
+    z-index: 100;
 }
 
 button {
@@ -139,7 +148,7 @@ svg {
     animation: svgscale 60s ease-in-out infinite;
     cursor: pointer;
     animation: svgcolor 60s ease-in-out infinite;
-    -webkit-filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .01));
-    filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .01));
+    -webkit-filter: drop-shadow( 1px 1px 10px rgba(0, 0, 0, .1));
+    filter: drop-shadow( 1px 1px 10px rgba(0, 0, 0, .1));
     
 }
