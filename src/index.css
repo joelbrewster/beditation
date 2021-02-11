@@ -11,6 +11,7 @@ body {
     font-size: 10vw;
     letter-spacing: .2em;
     font-family: Rajdhani, serif;
+    animation: backgroundcolor 60s ease-in-out infinite;
 }
 
 @keyframes backgroundcolor {
@@ -82,7 +83,6 @@ body {
 
 .player {
     display: flex;
-    animation: backgroundcolor 60s ease-in-out infinite;
     cursor: pointer;
     min-width: 100vw;
     min-height: 100vh;
