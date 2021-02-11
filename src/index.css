@@ -81,11 +81,13 @@ body {
 }
 
 .player {
-    min-width: 100vw;
-    min-height: 100vh;
     display: flex;
     animation: backgroundcolor 60s ease-in-out infinite;
     cursor: pointer;
+    min-width: 100vw;
+    min-height: 100vh;
+    /* mobile viewport bug fix */
+    min-height: -webkit-fill-available;
 }
 
 .tracklist {
