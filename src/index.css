@@ -12,7 +12,8 @@ body {
     letter-spacing: .2em;
     font-family: Rajdhani, serif;
     animation: backgroundcolor 60s ease-in-out infinite;
-    color: #79A8FE;
+    color: #764DB5;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, .1);
 }
 
 @keyframes backgroundcolor {
