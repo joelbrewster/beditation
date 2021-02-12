@@ -2,12 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
-const rain = "./audio/test.mp3";
-const water = "./audio/test2.mp3";
+const rain = "./audio/rain.mp3";
+const wind = "./audio/wind.mp3";
+const noise = "./audio/noise.mp3";
+const ocean = "./audio/ocean.mp3";
 
 const TRACKS = [
     { id: 1, title: "rain" },
-    { id: 2, title: "water" },
+    { id: 2, title: "wind" },
+    { id: 3, title: "ocean" },
+    { id: 4, title: "noise" },
 ];
 
 class App extends React.Component {
@@ -23,8 +27,14 @@ class App extends React.Component {
             case "rain":
 		track = rain;
 		break;
-            case "water":
-		track = water;
+            case "wind":
+		track = wind;
+		break;
+	    case "ocean":
+		track = ocean;
+		break;
+	    case "noise":
+		track = noise;
 		break;
             default:
 		break;
