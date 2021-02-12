@@ -8,7 +8,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    font-size: 8vw;
+    font-size: 10vw;
     letter-spacing: .2em;
     font-family: Rajdhani, serif;
     animation: backgroundcolor 60s ease-in-out infinite;
@@ -151,6 +151,6 @@ svg {
     animation: svgscale 60s ease-in-out infinite;
     cursor: pointer;
     animation: svgcolor 60s ease-in-out infinite;
-    -webkit-filter: drop-shadow( 1px 1px 100px rgba(121, 168, 255, .5));
-    filter: drop-shadow( 1px 1px 100px rgba(121, 168, 255, .5));   
+    -webkit-filter: drop-shadow( 1px 1px 100px rgba(0, 0, 0, .25));
+    filter: drop-shadow( 1px 1px 100px rgba(0, 0, 0, .25));   
 }
