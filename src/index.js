@@ -91,7 +91,7 @@ class App extends React.Component {
 			</div>
 
 			</div>
-			<audio ref={(ref) => (this.player = ref)} />
+			<audio loop ref={(ref) => (this.player = ref)} />
 	    </>
 	);
     }
